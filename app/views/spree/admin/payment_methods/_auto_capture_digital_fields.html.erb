@@ -1,0 +1,9 @@
+<div class="form-group">
+  <div class="custom-control custom-checkbox">
+    <%= f.check_box :preferred_auto_capture_for_digital_only_orders, class: 'custom-control-input', id: 'auto_capture_digital_only' %>
+    <%= f.label :preferred_auto_capture_for_digital_only_orders, Spree.t('auto_capture_digital.label'), class: 'custom-control-label', for: 'auto_capture_digital_only' %>
+  </div>
+  <small class="form-text text-muted">
+    <%= Spree.t('auto_capture_digital.hint') %>
+  </small>
+</div>

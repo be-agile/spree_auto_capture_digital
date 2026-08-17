@@ -1,0 +1,5 @@
+en:
+  spree:
+    auto_capture_digital:
+      label: Auto-capture for digital-only orders
+      hint: Even when auto-capture is disabled, orders containing only digital products will be captured immediately
